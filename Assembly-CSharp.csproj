@@ -46,17 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_GameController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_Mover.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
+     <Compile Include="Assets\Scripts\AirSpeederController.cs" />
+     <Compile Include="Assets\Scripts\Mover.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
