@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mover : MonoBehaviour {
+public class Mover : MonoBehaviour
+{
 
 	public float speed = 1;
 	Rigidbody rb;
 
-	void Start() {
+	void Start ()
+	{
 		rb = GetComponent<Rigidbody> ();
 		rb.velocity = transform.forward * speed;
 	}
